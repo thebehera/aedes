@@ -304,6 +304,7 @@ function defaultAuthorizeSubscribe (client, sub, callback) {
 }
 
 function defaultAuthorizeForward (client, packet) {
+  console.log('default authorized forward', client, packet)
   return packet
 }
 
